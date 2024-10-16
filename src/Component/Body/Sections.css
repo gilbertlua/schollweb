@@ -1,0 +1,19 @@
+.sections{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.section1{
+    margin-top: 100px!important;
+}
+.section1-image{
+    width: 380px;
+    border-radius: 10px;
+}
+.nama-web{
+    color: rgba(5,5,85,1);
+}
+
+.section1-right{
+    display: flex;
+    justify-content: flex-end;
+}
