@@ -1,19 +1,23 @@
 export const NavbarData = () => {
     return [
         {
-            title: "Home",
+            title: "Beranda",
             href: "#"
         },
         {
-            title: "Tentang Kami",
+            title: "Informasi",
             href: "#"
         },
         {
-            title: "Hubungi Kami",
+            title: "Fitur",
             href: "#"
         },
         {
-            title: "Dokumentasi",
+            title: "Media",
+            href: "#"
+        },
+        {
+            title: "Kontak",
             href: "#"
         }
     ];

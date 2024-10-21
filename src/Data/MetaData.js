@@ -1,6 +1,6 @@
 export const MetaData = () => {
     return{
-        namaWeb : "MEDIA INTERAKSI - Sekolah",
+        namaWeb : "SMP Negeri Wewewa Barat",
         alamat : ""
     }
 }

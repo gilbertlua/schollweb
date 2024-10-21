@@ -1,19 +1,22 @@
 .sections{
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.section1{
-    margin-top: 100px!important;
-}
-.section1-image{
-    width: 380px;
-    border-radius: 10px;
-}
-.nama-web{
-    color: rgba(5,5,85,1);
+    padding: 0px 30px !important;
 }
 
-.section1-right{
+/* section 1 */
+.section1{
+    background-color: white;
+}
+.section1-component{
     display: flex;
-    justify-content: flex-end;
+    align-items: center;
+}
+
+/* section 2 */
+.section2{
+    padding: 20px 20px !important;
+    background-color: rgb(231, 231, 231);
+}
+.section2-fitur{
+    display: flex;
+    justify-content: center;
 }

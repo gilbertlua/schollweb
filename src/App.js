@@ -6,8 +6,12 @@ function App() {
   return (    
     <div className="container ">
       <NavbarTop/>
-      <Section1/>
-      <Section2/>
+      <div className="container">
+        <Section1/>
+        <Section2/>
+      </div>        
+
+      {/* <div className='border' style={{height:'1000px'}}></div> */}
     </div>
   );
 }

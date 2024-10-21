@@ -1,23 +1,9 @@
-.navbar-top{
-    background: rgb(5,5,85);
-    background: linear-gradient(90deg, rgba(5,5,85,1) 58%, rgba(2,0,36,1) 100%);
-}
-.right-logo-main{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
-.right-logo{
-    height: 24px;
+.navbar{
+    background-color: white;
 }
 .navbar-brand{
-    color: white!important;
     font-weight: bold;
 }
-.nav-link{
-    color: white!important;
-}
-.nav-link:hover{
-    color: grey!important;
-    font-weight: bold!important;
+.nav-item{
+    color: black!important;
 }

@@ -7,19 +7,34 @@ export const Section1 = () =>{
     const section1Data = Section1Data();
     const metaData = MetaData();
     return(
-        <div className="row sections section1">
-            <div className="col-sm-7">
-                <h3 className="nama-web">{metaData.namaWeb}</h3>
-                <h3>{section1Data.title}</h3>
-                <hr/>
-                <br/>
-                <p>
-                    {section1Data.paragraph}
-                </p>
+        <div className="sections section1 mt-5">
+            <div className="row  section1-component">
+                <div className="col-sm-6 ">
+                    <div className="row">
+                        <h4 style={{padding:'0'}}>
+                            {section1Data.title}
+                        </h4>
+                        <hr/>
+                    </div>
+                    <div className="row">
+                        
+                            {section1Data.paragraph}
+                        
+                    </div>
+                    <br/>
+                    <div className="row">
+                        <button className="sch-btn ">
+                            Kunjungi
+                        </button>
+                    </div>
+                </div>
+                <div className="col-sm-6 ">
+                    <div className="justify-content-end">
+                        <img style={{width:'100%'}}src="./landingpage/landing.png" alt='landing page'/>
+                    </div> 
+                </div>
             </div>
-            <div className="col-sm-5 section1-right">
-                <img className="section1-image" src="./landingpage/schollblue.webp" alt="section1-image"/>
-            </div>
+            <hr/>
         </div>
     )
 }

@@ -3,4 +3,11 @@
 body {
   font-family: "Afacad Flux", sans-serif;
 }
-
+.sch-btn{
+  background-color: rgb(0, 0, 0);
+  border: none !important;
+  color: white !important;
+  width: auto!important;
+  height: 40px!important;
+  border-radius: 4px!important;
+}
