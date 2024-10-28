@@ -1,7 +1,7 @@
 export const FeatureData = () => {
     return[
         {
-            title: 'Fitur Komunikasi Sesama Sekolah',
+            title: 'Fitur Komunikasi',
             paragraph:'Fitur ini memungkinkan interaksi dan kolaborasi antara sekolah-sekolah yang berbeda. Dengan platform ini, siswa dan guru dapat bertukar informasi, berdiskusi, dan berbagi pengalaman, sehingga menciptakan jaringan yang kuat di antara komunitas pendidikan.',
             href:'#'
         },

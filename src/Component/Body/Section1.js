@@ -1,20 +1,17 @@
 import { Section1Data} from "../../Data/Section1Data"
-import { MetaData} from "../../Data/MetaData"
 import "./Sections.css"
 
 
 export const Section1 = () =>{
     const section1Data = Section1Data();
-    const metaData = MetaData();
     return(
-        <div className="sections section1 mt-5">
+        <div className="sections section1 mt-5" id="go-section1">
             <div className="row  section1-component">
                 <div className="col-sm-6 ">
                     <div className="row">
                         <h4 style={{padding:'0'}}>
                             {section1Data.title}
                         </h4>
-                        <hr/>
                     </div>
                     <div className="row">
                         
@@ -34,7 +31,6 @@ export const Section1 = () =>{
                     </div> 
                 </div>
             </div>
-            <hr/>
         </div>
     )
 }

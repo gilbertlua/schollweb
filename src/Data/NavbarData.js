@@ -2,23 +2,23 @@ export const NavbarData = () => {
     return [
         {
             title: "Beranda",
-            href: "#"
+            href: ""
         },
         {
             title: "Informasi",
-            href: "#"
+            href: "#go-section1"
         },
         {
             title: "Fitur",
-            href: "#"
+            href: "#go-section2"
         },
         {
-            title: "Media",
-            href: "#"
+            title: "Gallery",
+            href: "#go-section3"
         },
         {
             title: "Kontak",
-            href: "#"
+            href: "#go-section4"
         }
     ];
 };

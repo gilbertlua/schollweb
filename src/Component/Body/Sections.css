@@ -20,3 +20,26 @@
     display: flex;
     justify-content: center;
 }
+.custom-card{
+    height: 230px!important;
+}
+
+/* section 3 */
+.section3{
+    padding: 20px 20px !important;
+    background-color: rgb(255, 255, 255);
+}
+.image-item{
+    width: 210px;
+    height: 210px;
+    filter: contrast(70%);
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* section 4 */
+.list-group-item a{
+    text-decoration: none;
+    margin-left: 5px;
+    color: black;
+}
